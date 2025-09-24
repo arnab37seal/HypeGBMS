@@ -1,6 +1,7 @@
 # Hyperbolic Gaussian-Based Mean Shift (HypeGBMS)
 
 Implementation of Hyperbolic GBMS clustering algorithm on the Poincaré ball model.
+![images](https://github.com/Arghyapa/bftc/blob/main/synthetic-2d.png)
 
 ## Requirements
 - torch
