@@ -1,8 +1,26 @@
-# Hyperbolic GBMS
+# Hyperbolic Gaussian-Based Mean Shift (HypeGBMS)
 
-This repository contains an implementation of Hyperbolic Gaussian-Based Mean-Shift (GBMS) on the Poincaré ball.
+Implementation of Hyperbolic GBMS clustering algorithm on the Poincaré ball model.
 
-## Installation
+## Requirements
+- torch
+- numpy
+- scikit-learn
+- scipy
+
+## Example Dataset
+You can run the algorithm on any tabular dataset.  
+For quick testing, you can use scikit-learn datasets (e.g. `load_iris` or `load_wine`).
+
+| Dataset      | Samples | Dimensions | Classes |
+|-------------|---------|-----------|---------|
+| Iris        | 150     | 4         | 3       |
+| Wine        | 178     | 13        | 3       |
+| Zoo         | 101     | 16        | 7       |
+
+## Installation & Running
+### Installing
+Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/arnab37seal/HypeGBMS.git
